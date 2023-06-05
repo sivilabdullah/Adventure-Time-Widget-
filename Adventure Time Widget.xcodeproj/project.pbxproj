@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30A58092A2F24F00098945C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30A58082A2F24F00098945C /* WidgetKit.framework */; };
+		C30A580B2A2F24F00098945C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30A580A2A2F24F00098945C /* SwiftUI.framework */; };
+		C30A580E2A2F24F00098945C /* AdventureTimeWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A580D2A2F24F00098945C /* AdventureTimeWidgetsBundle.swift */; };
+		C30A58102A2F24F00098945C /* AdventureTimeWidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A580F2A2F24F00098945C /* AdventureTimeWidgetsLiveActivity.swift */; };
+		C30A58122A2F24F00098945C /* AdventureTimeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A58112A2F24F00098945C /* AdventureTimeWidgets.swift */; };
+		C30A58152A2F24F20098945C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30A58142A2F24F20098945C /* Assets.xcassets */; };
+		C30A58172A2F24F20098945C /* AdventureTimeWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C30A58132A2F24F10098945C /* AdventureTimeWidgets.intentdefinition */; };
+		C30A58182A2F24F20098945C /* AdventureTimeWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C30A58132A2F24F10098945C /* AdventureTimeWidgets.intentdefinition */; };
+		C30A581B2A2F24F20098945C /* AdventureTimeWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C30A58062A2F24F00098945C /* AdventureTimeWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C30A58202A2F25A50098945C /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A17122A2E01A900F096AD /* CharacterView.swift */; };
+		C30A58212A2F25AB0098945C /* CustomImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A17102A2DFF4500F096AD /* CustomImages.swift */; };
+		C30A58222A2F25B90098945C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A170E2A2DFC0900F096AD /* Model.swift */; };
+		C30A58232A2F28D00098945C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32A17042A2DFA9C00F096AD /* Assets.xcassets */; };
+		C32A17012A2DFA9A00F096AD /* Adventure_Time_WidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A17002A2DFA9900F096AD /* Adventure_Time_WidgetApp.swift */; };
+		C32A17032A2DFA9A00F096AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A17022A2DFA9A00F096AD /* ContentView.swift */; };
+		C32A17052A2DFA9C00F096AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32A17042A2DFA9C00F096AD /* Assets.xcassets */; };
+		C32A17082A2DFA9C00F096AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32A17072A2DFA9C00F096AD /* Preview Assets.xcassets */; };
+		C32A170F2A2DFC0900F096AD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A170E2A2DFC0900F096AD /* Model.swift */; };
+		C32A17112A2DFF4500F096AD /* CustomImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A17102A2DFF4500F096AD /* CustomImages.swift */; };
+		C32A17132A2E01A900F096AD /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A17122A2E01A900F096AD /* CharacterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C30A58192A2F24F20098945C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32A16F52A2DFA9900F096AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30A58052A2F24F00098945C;
+			remoteInfo = AdventureTimeWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C30A581F2A2F24F20098945C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C30A581B2A2F24F20098945C /* AdventureTimeWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C30A58012A2F22AD0098945C /* Adventure Time Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Adventure Time Widget.entitlements"; sourceTree = "<group>"; };
+		C30A58062A2F24F00098945C /* AdventureTimeWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AdventureTimeWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30A58082A2F24F00098945C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C30A580A2A2F24F00098945C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C30A580D2A2F24F00098945C /* AdventureTimeWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeWidgetsBundle.swift; sourceTree = "<group>"; };
+		C30A580F2A2F24F00098945C /* AdventureTimeWidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeWidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		C30A58112A2F24F00098945C /* AdventureTimeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeWidgets.swift; sourceTree = "<group>"; };
+		C30A58132A2F24F10098945C /* AdventureTimeWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AdventureTimeWidgets.intentdefinition; sourceTree = "<group>"; };
+		C30A58142A2F24F20098945C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30A58162A2F24F20098945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30A58242A2F28EE0098945C /* AdventureTimeWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdventureTimeWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		C32A16FD2A2DFA9900F096AD /* Adventure Time Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adventure Time Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32A17002A2DFA9900F096AD /* Adventure_Time_WidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure_Time_WidgetApp.swift; sourceTree = "<group>"; };
+		C32A17022A2DFA9A00F096AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C32A17042A2DFA9C00F096AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32A17072A2DFA9C00F096AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C32A170E2A2DFC0900F096AD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C32A17102A2DFF4500F096AD /* CustomImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImages.swift; sourceTree = "<group>"; };
+		C32A17122A2E01A900F096AD /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30A58032A2F24F00098945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30A580B2A2F24F00098945C /* SwiftUI.framework in Frameworks */,
+				C30A58092A2F24F00098945C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A16FA2A2DFA9900F096AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30A58072A2F24F00098945C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30A58082A2F24F00098945C /* WidgetKit.framework */,
+				C30A580A2A2F24F00098945C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30A580C2A2F24F00098945C /* AdventureTimeWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				C30A580D2A2F24F00098945C /* AdventureTimeWidgetsBundle.swift */,
+				C30A580F2A2F24F00098945C /* AdventureTimeWidgetsLiveActivity.swift */,
+				C30A58112A2F24F00098945C /* AdventureTimeWidgets.swift */,
+				C30A58132A2F24F10098945C /* AdventureTimeWidgets.intentdefinition */,
+				C30A58142A2F24F20098945C /* Assets.xcassets */,
+				C30A58162A2F24F20098945C /* Info.plist */,
+			);
+			path = AdventureTimeWidgets;
+			sourceTree = "<group>";
+		};
+		C32A16F42A2DFA9900F096AD = {
+			isa = PBXGroup;
+			children = (
+				C30A58242A2F28EE0098945C /* AdventureTimeWidgetsExtension.entitlements */,
+				C32A16FF2A2DFA9900F096AD /* Adventure Time Widget */,
+				C30A580C2A2F24F00098945C /* AdventureTimeWidgets */,
+				C30A58072A2F24F00098945C /* Frameworks */,
+				C32A16FE2A2DFA9900F096AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32A16FE2A2DFA9900F096AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32A16FD2A2DFA9900F096AD /* Adventure Time Widget.app */,
+				C30A58062A2F24F00098945C /* AdventureTimeWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32A16FF2A2DFA9900F096AD /* Adventure Time Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C30A58012A2F22AD0098945C /* Adventure Time Widget.entitlements */,
+				C32A17002A2DFA9900F096AD /* Adventure_Time_WidgetApp.swift */,
+				C32A17022A2DFA9A00F096AD /* ContentView.swift */,
+				C32A170E2A2DFC0900F096AD /* Model.swift */,
+				C32A17042A2DFA9C00F096AD /* Assets.xcassets */,
+				C32A17062A2DFA9C00F096AD /* Preview Content */,
+				C32A17102A2DFF4500F096AD /* CustomImages.swift */,
+				C32A17122A2E01A900F096AD /* CharacterView.swift */,
+			);
+			path = "Adventure Time Widget";
+			sourceTree = "<group>";
+		};
+		C32A17062A2DFA9C00F096AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C32A17072A2DFA9C00F096AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30A58052A2F24F00098945C /* AdventureTimeWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30A581C2A2F24F20098945C /* Build configuration list for PBXNativeTarget "AdventureTimeWidgetsExtension" */;
+			buildPhases = (
+				C30A58022A2F24F00098945C /* Sources */,
+				C30A58032A2F24F00098945C /* Frameworks */,
+				C30A58042A2F24F00098945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventureTimeWidgetsExtension;
+			productName = AdventureTimeWidgetsExtension;
+			productReference = C30A58062A2F24F00098945C /* AdventureTimeWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C32A16FC2A2DFA9900F096AD /* Adventure Time Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32A170B2A2DFA9C00F096AD /* Build configuration list for PBXNativeTarget "Adventure Time Widget" */;
+			buildPhases = (
+				C32A16F92A2DFA9900F096AD /* Sources */,
+				C32A16FA2A2DFA9900F096AD /* Frameworks */,
+				C32A16FB2A2DFA9900F096AD /* Resources */,
+				C30A581F2A2F24F20098945C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30A581A2A2F24F20098945C /* PBXTargetDependency */,
+			);
+			name = "Adventure Time Widget";
+			productName = "Adventure Time Widget";
+			productReference = C32A16FD2A2DFA9900F096AD /* Adventure Time Widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32A16F52A2DFA9900F096AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C30A58052A2F24F00098945C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C32A16FC2A2DFA9900F096AD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C32A16F82A2DFA9900F096AD /* Build configuration list for PBXProject "Adventure Time Widget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32A16F42A2DFA9900F096AD;
+			productRefGroup = C32A16FE2A2DFA9900F096AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32A16FC2A2DFA9900F096AD /* Adventure Time Widget */,
+				C30A58052A2F24F00098945C /* AdventureTimeWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30A58042A2F24F00098945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30A58232A2F28D00098945C /* Assets.xcassets in Resources */,
+				C30A58152A2F24F20098945C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A16FB2A2DFA9900F096AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32A17082A2DFA9C00F096AD /* Preview Assets.xcassets in Resources */,
+				C32A17052A2DFA9C00F096AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30A58022A2F24F00098945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30A58222A2F25B90098945C /* Model.swift in Sources */,
+				C30A58122A2F24F00098945C /* AdventureTimeWidgets.swift in Sources */,
+				C30A58102A2F24F00098945C /* AdventureTimeWidgetsLiveActivity.swift in Sources */,
+				C30A58202A2F25A50098945C /* CharacterView.swift in Sources */,
+				C30A58172A2F24F20098945C /* AdventureTimeWidgets.intentdefinition in Sources */,
+				C30A58212A2F25AB0098945C /* CustomImages.swift in Sources */,
+				C30A580E2A2F24F00098945C /* AdventureTimeWidgetsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A16F92A2DFA9900F096AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30A58182A2F24F20098945C /* AdventureTimeWidgets.intentdefinition in Sources */,
+				C32A170F2A2DFC0900F096AD /* Model.swift in Sources */,
+				C32A17032A2DFA9A00F096AD /* ContentView.swift in Sources */,
+				C32A17132A2E01A900F096AD /* CharacterView.swift in Sources */,
+				C32A17112A2DFF4500F096AD /* CustomImages.swift in Sources */,
+				C32A17012A2DFA9A00F096AD /* Adventure_Time_WidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C30A581A2A2F24F20098945C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30A58052A2F24F00098945C /* AdventureTimeWidgetsExtension */;
+			targetProxy = C30A58192A2F24F20098945C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C30A581D2A2F24F20098945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AdventureTimeWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9US9SK456N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdventureTimeWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AdventureTimeWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adotech.Adventure-Time-Widget.AdventureTimeWidgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C30A581E2A2F24F20098945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AdventureTimeWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9US9SK456N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdventureTimeWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AdventureTimeWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adotech.Adventure-Time-Widget.AdventureTimeWidgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C32A17092A2DFA9C00F096AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C32A170A2A2DFA9C00F096AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32A170C2A2DFA9C00F096AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Adventure Time Widget/Adventure Time Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Adventure Time Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = 9US9SK456N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adotech.Adventure-Time-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32A170D2A2DFA9C00F096AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Adventure Time Widget/Adventure Time Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Adventure Time Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = 9US9SK456N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adotech.Adventure-Time-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30A581C2A2F24F20098945C /* Build configuration list for PBXNativeTarget "AdventureTimeWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30A581D2A2F24F20098945C /* Debug */,
+				C30A581E2A2F24F20098945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32A16F82A2DFA9900F096AD /* Build configuration list for PBXProject "Adventure Time Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32A17092A2DFA9C00F096AD /* Debug */,
+				C32A170A2A2DFA9C00F096AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32A170B2A2DFA9C00F096AD /* Build configuration list for PBXNativeTarget "Adventure Time Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32A170C2A2DFA9C00F096AD /* Debug */,
+				C32A170D2A2DFA9C00F096AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32A16F52A2DFA9900F096AD /* Project object */;
+}
